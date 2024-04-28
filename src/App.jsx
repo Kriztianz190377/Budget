@@ -7,6 +7,8 @@ import ControlPresupuesto from './components/ControlPresupuesto';
 
 function App() {
 
+  console.log('cargando APP')
+
   //definir state 
 
   const [presupuesto, guardarPresupuesto] = useState(0);
@@ -38,7 +40,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>PRESUPUESTO</h1>
+        <h1>BUDGET</h1>
         <div className="contenido-principal contenido">
           {mostrarpreguntas ?
             (
