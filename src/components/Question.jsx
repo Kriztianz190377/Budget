@@ -36,7 +36,7 @@ const Question = ({guardarPresupuesto, guardarRestante, actualizarPreguntas}) =>
             <h2>Put Your Budget</h2>
             {
                 error ? <Error
-                    mensaje="El presupuesto es incorrecto"
+                    mensaje="The budget is incorrect"
 
                 /> : null
             }
